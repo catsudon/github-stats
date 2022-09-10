@@ -256,7 +256,7 @@ class Stats(object):
         access_token: str,
         session: aiohttp.ClientSession,
         exclude_repos: Optional[Set] = None,
-        exclude_langs: Optional[Set],
+        exclude_langs: Optional[Set] = None,
         ignore_forked_repos: bool = False,
     ):
         self.username = username
