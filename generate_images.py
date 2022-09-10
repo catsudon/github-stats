@@ -13,7 +13,6 @@ from github_stats import Stats
 # Helper Functions
 ################################################################################
 
-
 def generate_output_folder() -> None:
     """
     Create the output folder if it does not already exist
